@@ -1,0 +1,134 @@
+.heading {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.content-info {
+    font-size: 17px;
+}
+
+.head {
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    font-size: 30px;
+}
+
+.btn {
+
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-ios {
+    background-color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.btn.btn-ios:hover {
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+}
+
+.btn-mac {
+    background-color: hsl(233, 100%, 69%);
+}
+.btn.btn-mac:hover {
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.feature {
+    width: 325px;
+}
+
+.features-head {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    color: rgb(58, 58, 58);
+}
+
+.lead {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.pc-img {
+    width: 600px;
+}
+
+footer {
+    background-color: rgb(213, 216, 219);
+}
+
+footer .container {
+
+    padding-top: 20px;
+}
+
+.foot-logo {
+    width: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 5px;
+    color: rgb(77, 73, 73);
+}
+
+.social-icon {
+    width: 20px;
+    margin: 10px;
+}
+
+
+
+
+@media(max-width:400px) {
+
+    .logo {
+        width: 120px;
+    }
+
+    .header {
+        background-image: url('/images/bg-header-mobile.png');
+        padding-top: 130px;
+    }
+
+    .btn {
+        padding: 10px 80px;
+    }
+
+    ul {
+        text-align: center;
+    }
+}
+
+@media(min-width:500px) {
+    .cont {
+        width: 50%;
+    }
+
+    .header {
+        background-image: url('/images/bg-header-desktop.png');
+        padding-top: 130px;
+    }
+
+    .btn {
+        padding: 10px 50px;
+    }
+
+    ul {
+        text-align: justify;
+    }
+}
